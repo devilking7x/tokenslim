@@ -30,6 +30,10 @@
 
 TypeScript + React 19 + Vite 7 + Tailwind CSS v4 (via `@tailwindcss/vite`) + lucide-react + `gpt-tokenizer` (real browser BPE counting). Hand-rolled SVG gauges and charts — no chart libraries. All state in localStorage; zero backend.
 
+## 📸 Screenshots
+
+![TokenSlim token-cost workbench](screenshots/demo.png)
+
 ## Local dev
 
 ```bash
