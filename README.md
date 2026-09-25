@@ -1,5 +1,9 @@
 ![TokenSlim](og-image.webp)
 
+![Demo — TokenSlim walkthrough](demo.gif)
+
+> **Demo** — 13-second walkthrough: compress a bloated prompt, route skills without flooding context, hit the semantic cache, and watch savings land on the dashboard.
+
 # TokenSlim ![MIT](https://img.shields.io/badge/license-MIT-emerald)
 
 **Trim AI costs without trimming quality.** TokenSlim is a 100% client-side workbench for cutting LLM token spend — compress prompts, route skills without flooding context, cascade models by task difficulty, budget reasoning tokens, cache semantically, and plan spend against a budget. Every saving is tracked on a dashboard. Nothing leaves your browser.
