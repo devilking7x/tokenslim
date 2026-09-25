@@ -1,0 +1,2452 @@
+[
+  {
+    "id": "react-patterns",
+    "name": "React Patterns",
+    "category": "frontend",
+    "description": "Battle-tested component patterns: composition, colocation, and state ownership.",
+    "estTokens": 84
+  },
+  {
+    "id": "typescript-strict",
+    "name": "TypeScript Strict Mode",
+    "category": "frontend",
+    "description": "Zero-any discipline, exhaustive narrowing, and type-level testing recipes.",
+    "estTokens": 77
+  },
+  {
+    "id": "nextjs-app-router",
+    "name": "Next.js App Router",
+    "category": "frontend",
+    "description": "Server components, caching semantics, and route-level data flow.",
+    "estTokens": 99
+  },
+  {
+    "id": "component-composition",
+    "name": "Component Composition",
+    "category": "frontend",
+    "description": "Practical guide to component composition. Each rule pairs with a concrete before/after example.",
+    "estTokens": 112
+  },
+  {
+    "id": "component-composition-at-scale",
+    "name": "Component Composition At Scale",
+    "category": "frontend",
+    "description": "How to get component composition right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 119
+  },
+  {
+    "id": "component-composition-in-production",
+    "name": "Component Composition In Production",
+    "category": "frontend",
+    "description": "A field manual for component composition — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 118
+  },
+  {
+    "id": "state-management",
+    "name": "State Management",
+    "category": "frontend",
+    "description": "State management done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 86
+  },
+  {
+    "id": "state-management-at-scale",
+    "name": "State Management At Scale",
+    "category": "frontend",
+    "description": "Practical guide to state management. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 78
+  },
+  {
+    "id": "state-management-in-production",
+    "name": "State Management In Production",
+    "category": "frontend",
+    "description": "How to get state management right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 60
+  },
+  {
+    "id": "server-side-rendering",
+    "name": "Server-side Rendering",
+    "category": "frontend",
+    "description": "A field manual for server-side rendering — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 118
+  },
+  {
+    "id": "server-side-rendering-at-scale",
+    "name": "Server-side Rendering At Scale",
+    "category": "frontend",
+    "description": "Server-side rendering done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 57
+  },
+  {
+    "id": "server-side-rendering-in-production",
+    "name": "Server-side Rendering In Production",
+    "category": "frontend",
+    "description": "Practical guide to server-side rendering. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 81
+  },
+  {
+    "id": "bundle-optimization",
+    "name": "Bundle Optimization",
+    "category": "frontend",
+    "description": "How to get bundle optimization right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 104
+  },
+  {
+    "id": "bundle-optimization-at-scale",
+    "name": "Bundle Optimization At Scale",
+    "category": "frontend",
+    "description": "A field manual for bundle optimization — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 74
+  },
+  {
+    "id": "bundle-optimization-in-production",
+    "name": "Bundle Optimization In Production",
+    "category": "frontend",
+    "description": "Bundle optimization done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 115
+  },
+  {
+    "id": "css-architecture",
+    "name": "Css Architecture",
+    "category": "frontend",
+    "description": "Practical guide to css architecture. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 91
+  },
+  {
+    "id": "css-architecture-at-scale",
+    "name": "Css Architecture At Scale",
+    "category": "frontend",
+    "description": "How to get css architecture right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 57
+  },
+  {
+    "id": "css-architecture-in-production",
+    "name": "Css Architecture In Production",
+    "category": "frontend",
+    "description": "A field manual for css architecture — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 107
+  },
+  {
+    "id": "accessibility-audits",
+    "name": "Accessibility Audits",
+    "category": "frontend",
+    "description": "Accessibility audits done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 86
+  },
+  {
+    "id": "accessibility-audits-at-scale",
+    "name": "Accessibility Audits At Scale",
+    "category": "frontend",
+    "description": "Practical guide to accessibility audits. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 108
+  },
+  {
+    "id": "accessibility-audits-in-production",
+    "name": "Accessibility Audits In Production",
+    "category": "frontend",
+    "description": "How to get accessibility audits right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 89
+  },
+  {
+    "id": "form-handling",
+    "name": "Form Handling",
+    "category": "frontend",
+    "description": "A field manual for form handling — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 68
+  },
+  {
+    "id": "form-handling-at-scale",
+    "name": "Form Handling At Scale",
+    "category": "frontend",
+    "description": "Form handling done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 41
+  },
+  {
+    "id": "form-handling-in-production",
+    "name": "Form Handling In Production",
+    "category": "frontend",
+    "description": "Practical guide to form handling. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 72
+  },
+  {
+    "id": "routing-strategies",
+    "name": "Routing Strategies",
+    "category": "frontend",
+    "description": "How to get routing strategies right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 100
+  },
+  {
+    "id": "routing-strategies-at-scale",
+    "name": "Routing Strategies At Scale",
+    "category": "frontend",
+    "description": "A field manual for routing strategies — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 102
+  },
+  {
+    "id": "routing-strategies-in-production",
+    "name": "Routing Strategies In Production",
+    "category": "frontend",
+    "description": "Routing strategies done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 64
+  },
+  {
+    "id": "image-optimization",
+    "name": "Image Optimization",
+    "category": "frontend",
+    "description": "Practical guide to image optimization. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 88
+  },
+  {
+    "id": "image-optimization-at-scale",
+    "name": "Image Optimization At Scale",
+    "category": "frontend",
+    "description": "How to get image optimization right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 89
+  },
+  {
+    "id": "image-optimization-in-production",
+    "name": "Image Optimization In Production",
+    "category": "frontend",
+    "description": "A field manual for image optimization — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 91
+  },
+  {
+    "id": "web-vitals-tuning",
+    "name": "Web Vitals Tuning",
+    "category": "frontend",
+    "description": "Web vitals tuning done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 116
+  },
+  {
+    "id": "web-vitals-tuning-at-scale",
+    "name": "Web Vitals Tuning At Scale",
+    "category": "frontend",
+    "description": "Practical guide to web vitals tuning. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 94
+  },
+  {
+    "id": "web-vitals-tuning-in-production",
+    "name": "Web Vitals Tuning In Production",
+    "category": "frontend",
+    "description": "How to get web vitals tuning right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 76
+  },
+  {
+    "id": "micro-frontends",
+    "name": "Micro-frontends",
+    "category": "frontend",
+    "description": "A field manual for micro-frontends — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 120
+  },
+  {
+    "id": "micro-frontends-at-scale",
+    "name": "Micro-frontends At Scale",
+    "category": "frontend",
+    "description": "Micro-frontends done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 75
+  },
+  {
+    "id": "api-design",
+    "name": "API Design",
+    "category": "backend",
+    "description": "REST resource modeling, versioning, and error-envelope conventions.",
+    "estTokens": 96
+  },
+  {
+    "id": "redis-caching",
+    "name": "Redis Caching",
+    "category": "backend",
+    "description": "Cache keys, TTL strategy, stampede protection, and invalidation patterns.",
+    "estTokens": 99
+  },
+  {
+    "id": "webhooks-design",
+    "name": "Webhooks Design",
+    "category": "backend",
+    "description": "Idempotency, retries with backoff, signature verification, and ordering.",
+    "estTokens": 66
+  },
+  {
+    "id": "graphql-api",
+    "name": "GraphQL API",
+    "category": "backend",
+    "description": "Schema design, dataloader batching, and pagination that survives growth.",
+    "estTokens": 100
+  },
+  {
+    "id": "error-handling",
+    "name": "Error Handling",
+    "category": "backend",
+    "description": "Result types, typed errors, retries, and failure budgets that degrade well.",
+    "estTokens": 106
+  },
+  {
+    "id": "middleware-pipelines",
+    "name": "Middleware Pipelines",
+    "category": "backend",
+    "description": "Practical guide to middleware pipelines. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 65
+  },
+  {
+    "id": "middleware-pipelines-at-scale",
+    "name": "Middleware Pipelines At Scale",
+    "category": "backend",
+    "description": "How to get middleware pipelines right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 77
+  },
+  {
+    "id": "middleware-pipelines-in-production",
+    "name": "Middleware Pipelines In Production",
+    "category": "backend",
+    "description": "A field manual for middleware pipelines — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 120
+  },
+  {
+    "id": "background-jobs",
+    "name": "Background Jobs",
+    "category": "backend",
+    "description": "Background jobs done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 91
+  },
+  {
+    "id": "background-jobs-at-scale",
+    "name": "Background Jobs At Scale",
+    "category": "backend",
+    "description": "Practical guide to background jobs. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 90
+  },
+  {
+    "id": "background-jobs-in-production",
+    "name": "Background Jobs In Production",
+    "category": "backend",
+    "description": "How to get background jobs right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 102
+  },
+  {
+    "id": "request-validation",
+    "name": "Request Validation",
+    "category": "backend",
+    "description": "A field manual for request validation — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 40
+  },
+  {
+    "id": "request-validation-at-scale",
+    "name": "Request Validation At Scale",
+    "category": "backend",
+    "description": "Request validation done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 109
+  },
+  {
+    "id": "request-validation-in-production",
+    "name": "Request Validation In Production",
+    "category": "backend",
+    "description": "Practical guide to request validation. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 63
+  },
+  {
+    "id": "pagination-patterns",
+    "name": "Pagination Patterns",
+    "category": "backend",
+    "description": "How to get pagination patterns right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 92
+  },
+  {
+    "id": "pagination-patterns-at-scale",
+    "name": "Pagination Patterns At Scale",
+    "category": "backend",
+    "description": "A field manual for pagination patterns — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 100
+  },
+  {
+    "id": "pagination-patterns-in-production",
+    "name": "Pagination Patterns In Production",
+    "category": "backend",
+    "description": "Pagination patterns done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 118
+  },
+  {
+    "id": "file-uploads",
+    "name": "File Uploads",
+    "category": "backend",
+    "description": "Practical guide to file uploads. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 51
+  },
+  {
+    "id": "file-uploads-at-scale",
+    "name": "File Uploads At Scale",
+    "category": "backend",
+    "description": "How to get file uploads right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 104
+  },
+  {
+    "id": "file-uploads-in-production",
+    "name": "File Uploads In Production",
+    "category": "backend",
+    "description": "A field manual for file uploads — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 63
+  },
+  {
+    "id": "email-delivery",
+    "name": "Email Delivery",
+    "category": "backend",
+    "description": "Email delivery done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 44
+  },
+  {
+    "id": "email-delivery-at-scale",
+    "name": "Email Delivery At Scale",
+    "category": "backend",
+    "description": "Practical guide to email delivery. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 113
+  },
+  {
+    "id": "email-delivery-in-production",
+    "name": "Email Delivery In Production",
+    "category": "backend",
+    "description": "How to get email delivery right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 111
+  },
+  {
+    "id": "search-integration",
+    "name": "Search Integration",
+    "category": "backend",
+    "description": "A field manual for search integration — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 107
+  },
+  {
+    "id": "search-integration-at-scale",
+    "name": "Search Integration At Scale",
+    "category": "backend",
+    "description": "Search integration done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 108
+  },
+  {
+    "id": "search-integration-in-production",
+    "name": "Search Integration In Production",
+    "category": "backend",
+    "description": "Practical guide to search integration. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 98
+  },
+  {
+    "id": "feature-flags",
+    "name": "Feature Flags",
+    "category": "backend",
+    "description": "How to get feature flags right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 104
+  },
+  {
+    "id": "feature-flags-at-scale",
+    "name": "Feature Flags At Scale",
+    "category": "backend",
+    "description": "A field manual for feature flags — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 59
+  },
+  {
+    "id": "feature-flags-in-production",
+    "name": "Feature Flags In Production",
+    "category": "backend",
+    "description": "Feature flags done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 62
+  },
+  {
+    "id": "api-gateways",
+    "name": "Api Gateways",
+    "category": "backend",
+    "description": "Practical guide to api gateways. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 101
+  },
+  {
+    "id": "api-gateways-at-scale",
+    "name": "Api Gateways At Scale",
+    "category": "backend",
+    "description": "How to get api gateways right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 87
+  },
+  {
+    "id": "api-gateways-in-production",
+    "name": "Api Gateways In Production",
+    "category": "backend",
+    "description": "A field manual for api gateways — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 53
+  },
+  {
+    "id": "message-queues",
+    "name": "Message Queues",
+    "category": "backend",
+    "description": "Message queues done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 107
+  },
+  {
+    "id": "message-queues-at-scale",
+    "name": "Message Queues At Scale",
+    "category": "backend",
+    "description": "Practical guide to message queues. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 48
+  },
+  {
+    "id": "message-queues-in-production",
+    "name": "Message Queues In Production",
+    "category": "backend",
+    "description": "How to get message queues right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 102
+  },
+  {
+    "id": "sql-optimization",
+    "name": "SQL Optimization",
+    "category": "database",
+    "description": "Reading query plans, sargability, and the 80/20 of fast queries.",
+    "estTokens": 62
+  },
+  {
+    "id": "postgres-indexing",
+    "name": "Postgres Indexing",
+    "category": "database",
+    "description": "B-tree, GIN, and partial indexes — plus when NOT to index.",
+    "estTokens": 70
+  },
+  {
+    "id": "connection-pooling",
+    "name": "Connection Pooling",
+    "category": "database",
+    "description": "Practical guide to connection pooling. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 57
+  },
+  {
+    "id": "connection-pooling-at-scale",
+    "name": "Connection Pooling At Scale",
+    "category": "database",
+    "description": "How to get connection pooling right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 40
+  },
+  {
+    "id": "connection-pooling-in-production",
+    "name": "Connection Pooling In Production",
+    "category": "database",
+    "description": "A field manual for connection pooling — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 81
+  },
+  {
+    "id": "migration-strategy",
+    "name": "Migration Strategy",
+    "category": "database",
+    "description": "Migration strategy done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 71
+  },
+  {
+    "id": "migration-strategy-at-scale",
+    "name": "Migration Strategy At Scale",
+    "category": "database",
+    "description": "Practical guide to migration strategy. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 47
+  },
+  {
+    "id": "migration-strategy-in-production",
+    "name": "Migration Strategy In Production",
+    "category": "database",
+    "description": "How to get migration strategy right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 77
+  },
+  {
+    "id": "query-batching",
+    "name": "Query Batching",
+    "category": "database",
+    "description": "A field manual for query batching — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 80
+  },
+  {
+    "id": "query-batching-at-scale",
+    "name": "Query Batching At Scale",
+    "category": "database",
+    "description": "Query batching done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 104
+  },
+  {
+    "id": "query-batching-in-production",
+    "name": "Query Batching In Production",
+    "category": "database",
+    "description": "Practical guide to query batching. Each rule pairs with a concrete before/after example.",
+    "estTokens": 61
+  },
+  {
+    "id": "read-replicas",
+    "name": "Read Replicas",
+    "category": "database",
+    "description": "How to get read replicas right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 41
+  },
+  {
+    "id": "read-replicas-at-scale",
+    "name": "Read Replicas At Scale",
+    "category": "database",
+    "description": "A field manual for read replicas — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 90
+  },
+  {
+    "id": "read-replicas-in-production",
+    "name": "Read Replicas In Production",
+    "category": "database",
+    "description": "Read replicas done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 75
+  },
+  {
+    "id": "schema-versioning",
+    "name": "Schema Versioning",
+    "category": "database",
+    "description": "Practical guide to schema versioning. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 63
+  },
+  {
+    "id": "schema-versioning-at-scale",
+    "name": "Schema Versioning At Scale",
+    "category": "database",
+    "description": "How to get schema versioning right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 59
+  },
+  {
+    "id": "schema-versioning-in-production",
+    "name": "Schema Versioning In Production",
+    "category": "database",
+    "description": "A field manual for schema versioning — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 45
+  },
+  {
+    "id": "deadlock-diagnosis",
+    "name": "Deadlock Diagnosis",
+    "category": "database",
+    "description": "Deadlock diagnosis done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 118
+  },
+  {
+    "id": "deadlock-diagnosis-at-scale",
+    "name": "Deadlock Diagnosis At Scale",
+    "category": "database",
+    "description": "Practical guide to deadlock diagnosis. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 110
+  },
+  {
+    "id": "deadlock-diagnosis-in-production",
+    "name": "Deadlock Diagnosis In Production",
+    "category": "database",
+    "description": "How to get deadlock diagnosis right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 102
+  },
+  {
+    "id": "full-text-search",
+    "name": "Full-text Search",
+    "category": "database",
+    "description": "A field manual for full-text search — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 101
+  },
+  {
+    "id": "full-text-search-at-scale",
+    "name": "Full-text Search At Scale",
+    "category": "database",
+    "description": "Full-text search done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 77
+  },
+  {
+    "id": "full-text-search-in-production",
+    "name": "Full-text Search In Production",
+    "category": "database",
+    "description": "Practical guide to full-text search. Each rule pairs with a concrete before/after example.",
+    "estTokens": 68
+  },
+  {
+    "id": "partitioning",
+    "name": "Partitioning",
+    "category": "database",
+    "description": "How to get partitioning right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 44
+  },
+  {
+    "id": "partitioning-at-scale",
+    "name": "Partitioning At Scale",
+    "category": "database",
+    "description": "A field manual for partitioning — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 65
+  },
+  {
+    "id": "partitioning-in-production",
+    "name": "Partitioning In Production",
+    "category": "database",
+    "description": "Partitioning done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 66
+  },
+  {
+    "id": "transaction-isolation",
+    "name": "Transaction Isolation",
+    "category": "database",
+    "description": "Practical guide to transaction isolation. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 49
+  },
+  {
+    "id": "transaction-isolation-at-scale",
+    "name": "Transaction Isolation At Scale",
+    "category": "database",
+    "description": "How to get transaction isolation right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 108
+  },
+  {
+    "id": "transaction-isolation-in-production",
+    "name": "Transaction Isolation In Production",
+    "category": "database",
+    "description": "A field manual for transaction isolation — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 93
+  },
+  {
+    "id": "backup-restores",
+    "name": "Backup Restores",
+    "category": "database",
+    "description": "Backup restores done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 60
+  },
+  {
+    "id": "backup-restores-at-scale",
+    "name": "Backup Restores At Scale",
+    "category": "database",
+    "description": "Practical guide to backup restores. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 59
+  },
+  {
+    "id": "backup-restores-in-production",
+    "name": "Backup Restores In Production",
+    "category": "database",
+    "description": "How to get backup restores right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 100
+  },
+  {
+    "id": "audit-logging",
+    "name": "Audit Logging",
+    "category": "database",
+    "description": "A field manual for audit logging — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 71
+  },
+  {
+    "id": "audit-logging-at-scale",
+    "name": "Audit Logging At Scale",
+    "category": "database",
+    "description": "Audit logging done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 55
+  },
+  {
+    "id": "audit-logging-in-production",
+    "name": "Audit Logging In Production",
+    "category": "database",
+    "description": "Practical guide to audit logging. Each rule pairs with a concrete before/after example.",
+    "estTokens": 69
+  },
+  {
+    "id": "docker-deploy",
+    "name": "Docker Deploy",
+    "category": "devops",
+    "description": "Multi-stage builds, layer caching, and minimal attack-surface images.",
+    "estTokens": 86
+  },
+  {
+    "id": "ci-cd-github-actions",
+    "name": "CI/CD with GitHub Actions",
+    "category": "devops",
+    "description": "Cache-aware pipelines, matrix builds, and safe deployments.",
+    "estTokens": 62
+  },
+  {
+    "id": "kubernetes-basics",
+    "name": "Kubernetes Basics",
+    "category": "devops",
+    "description": "Pods, services, probes, and resource limits that prevent noisy neighbors.",
+    "estTokens": 97
+  },
+  {
+    "id": "log-aggregation",
+    "name": "Log Aggregation",
+    "category": "devops",
+    "description": "Practical guide to log aggregation. Each rule pairs with a concrete before/after example.",
+    "estTokens": 57
+  },
+  {
+    "id": "log-aggregation-at-scale",
+    "name": "Log Aggregation At Scale",
+    "category": "devops",
+    "description": "How to get log aggregation right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 110
+  },
+  {
+    "id": "log-aggregation-in-production",
+    "name": "Log Aggregation In Production",
+    "category": "devops",
+    "description": "A field manual for log aggregation — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 57
+  },
+  {
+    "id": "secret-rotation",
+    "name": "Secret Rotation",
+    "category": "devops",
+    "description": "Secret rotation done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 96
+  },
+  {
+    "id": "secret-rotation-at-scale",
+    "name": "Secret Rotation At Scale",
+    "category": "devops",
+    "description": "Practical guide to secret rotation. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 77
+  },
+  {
+    "id": "secret-rotation-in-production",
+    "name": "Secret Rotation In Production",
+    "category": "devops",
+    "description": "How to get secret rotation right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 116
+  },
+  {
+    "id": "blue-green-deploys",
+    "name": "Blue-green Deploys",
+    "category": "devops",
+    "description": "A field manual for blue-green deploys — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 68
+  },
+  {
+    "id": "blue-green-deploys-at-scale",
+    "name": "Blue-green Deploys At Scale",
+    "category": "devops",
+    "description": "Blue-green deploys done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 85
+  },
+  {
+    "id": "blue-green-deploys-in-production",
+    "name": "Blue-green Deploys In Production",
+    "category": "devops",
+    "description": "Practical guide to blue-green deploys. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 100
+  },
+  {
+    "id": "infrastructure-as-code",
+    "name": "Infrastructure As Code",
+    "category": "devops",
+    "description": "How to get infrastructure as code right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 78
+  },
+  {
+    "id": "infrastructure-as-code-at-scale",
+    "name": "Infrastructure As Code At Scale",
+    "category": "devops",
+    "description": "A field manual for infrastructure as code — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 95
+  },
+  {
+    "id": "infrastructure-as-code-in-production",
+    "name": "Infrastructure As Code In Production",
+    "category": "devops",
+    "description": "Infrastructure as code done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 77
+  },
+  {
+    "id": "health-checks",
+    "name": "Health Checks",
+    "category": "devops",
+    "description": "Practical guide to health checks. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 86
+  },
+  {
+    "id": "health-checks-at-scale",
+    "name": "Health Checks At Scale",
+    "category": "devops",
+    "description": "How to get health checks right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 81
+  },
+  {
+    "id": "health-checks-in-production",
+    "name": "Health Checks In Production",
+    "category": "devops",
+    "description": "A field manual for health checks — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 90
+  },
+  {
+    "id": "autoscaling-policies",
+    "name": "Autoscaling Policies",
+    "category": "devops",
+    "description": "Autoscaling policies done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 107
+  },
+  {
+    "id": "autoscaling-policies-at-scale",
+    "name": "Autoscaling Policies At Scale",
+    "category": "devops",
+    "description": "Practical guide to autoscaling policies. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 71
+  },
+  {
+    "id": "autoscaling-policies-in-production",
+    "name": "Autoscaling Policies In Production",
+    "category": "devops",
+    "description": "How to get autoscaling policies right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 73
+  },
+  {
+    "id": "artifact-registries",
+    "name": "Artifact Registries",
+    "category": "devops",
+    "description": "A field manual for artifact registries — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 81
+  },
+  {
+    "id": "artifact-registries-at-scale",
+    "name": "Artifact Registries At Scale",
+    "category": "devops",
+    "description": "Artifact registries done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 52
+  },
+  {
+    "id": "artifact-registries-in-production",
+    "name": "Artifact Registries In Production",
+    "category": "devops",
+    "description": "Practical guide to artifact registries. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 103
+  },
+  {
+    "id": "canary-releases",
+    "name": "Canary Releases",
+    "category": "devops",
+    "description": "How to get canary releases right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 90
+  },
+  {
+    "id": "canary-releases-at-scale",
+    "name": "Canary Releases At Scale",
+    "category": "devops",
+    "description": "A field manual for canary releases — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 80
+  },
+  {
+    "id": "canary-releases-in-production",
+    "name": "Canary Releases In Production",
+    "category": "devops",
+    "description": "Canary releases done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 74
+  },
+  {
+    "id": "network-policies",
+    "name": "Network Policies",
+    "category": "devops",
+    "description": "Practical guide to network policies. Each rule pairs with a concrete before/after example.",
+    "estTokens": 114
+  },
+  {
+    "id": "network-policies-at-scale",
+    "name": "Network Policies At Scale",
+    "category": "devops",
+    "description": "How to get network policies right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 54
+  },
+  {
+    "id": "network-policies-in-production",
+    "name": "Network Policies In Production",
+    "category": "devops",
+    "description": "A field manual for network policies — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 62
+  },
+  {
+    "id": "backup-drills",
+    "name": "Backup Drills",
+    "category": "devops",
+    "description": "Backup drills done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 66
+  },
+  {
+    "id": "backup-drills-at-scale",
+    "name": "Backup Drills At Scale",
+    "category": "devops",
+    "description": "Practical guide to backup drills. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 118
+  },
+  {
+    "id": "backup-drills-in-production",
+    "name": "Backup Drills In Production",
+    "category": "devops",
+    "description": "How to get backup drills right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 107
+  },
+  {
+    "id": "cost-tagging",
+    "name": "Cost Tagging",
+    "category": "devops",
+    "description": "A field manual for cost tagging — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 95
+  },
+  {
+    "id": "cost-tagging-at-scale",
+    "name": "Cost Tagging At Scale",
+    "category": "devops",
+    "description": "Cost tagging done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 80
+  },
+  {
+    "id": "testing-vitest",
+    "name": "Testing with Vitest",
+    "category": "testing",
+    "description": "Fast unit tests, mocking boundaries, and flake-free async testing.",
+    "estTokens": 80
+  },
+  {
+    "id": "contract-testing",
+    "name": "Contract Testing",
+    "category": "testing",
+    "description": "Practical guide to contract testing. Each rule pairs with a concrete before/after example.",
+    "estTokens": 76
+  },
+  {
+    "id": "contract-testing-at-scale",
+    "name": "Contract Testing At Scale",
+    "category": "testing",
+    "description": "How to get contract testing right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 66
+  },
+  {
+    "id": "contract-testing-in-production",
+    "name": "Contract Testing In Production",
+    "category": "testing",
+    "description": "A field manual for contract testing — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 77
+  },
+  {
+    "id": "snapshot-discipline",
+    "name": "Snapshot Discipline",
+    "category": "testing",
+    "description": "Snapshot discipline done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 120
+  },
+  {
+    "id": "snapshot-discipline-at-scale",
+    "name": "Snapshot Discipline At Scale",
+    "category": "testing",
+    "description": "Practical guide to snapshot discipline. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 61
+  },
+  {
+    "id": "snapshot-discipline-in-production",
+    "name": "Snapshot Discipline In Production",
+    "category": "testing",
+    "description": "How to get snapshot discipline right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 79
+  },
+  {
+    "id": "load-testing",
+    "name": "Load Testing",
+    "category": "testing",
+    "description": "A field manual for load testing — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 70
+  },
+  {
+    "id": "load-testing-at-scale",
+    "name": "Load Testing At Scale",
+    "category": "testing",
+    "description": "Load testing done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 89
+  },
+  {
+    "id": "load-testing-in-production",
+    "name": "Load Testing In Production",
+    "category": "testing",
+    "description": "Practical guide to load testing. Each rule pairs with a concrete before/after example.",
+    "estTokens": 53
+  },
+  {
+    "id": "mutation-testing",
+    "name": "Mutation Testing",
+    "category": "testing",
+    "description": "How to get mutation testing right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 47
+  },
+  {
+    "id": "mutation-testing-at-scale",
+    "name": "Mutation Testing At Scale",
+    "category": "testing",
+    "description": "A field manual for mutation testing — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 110
+  },
+  {
+    "id": "mutation-testing-in-production",
+    "name": "Mutation Testing In Production",
+    "category": "testing",
+    "description": "Mutation testing done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 95
+  },
+  {
+    "id": "test-data-factories",
+    "name": "Test Data Factories",
+    "category": "testing",
+    "description": "Practical guide to test data factories. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 64
+  },
+  {
+    "id": "test-data-factories-at-scale",
+    "name": "Test Data Factories At Scale",
+    "category": "testing",
+    "description": "How to get test data factories right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 44
+  },
+  {
+    "id": "test-data-factories-in-production",
+    "name": "Test Data Factories In Production",
+    "category": "testing",
+    "description": "A field manual for test data factories — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 101
+  },
+  {
+    "id": "e2e-selectors",
+    "name": "E2e Selectors",
+    "category": "testing",
+    "description": "E2e selectors done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 91
+  },
+  {
+    "id": "e2e-selectors-at-scale",
+    "name": "E2e Selectors At Scale",
+    "category": "testing",
+    "description": "Practical guide to e2e selectors. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 84
+  },
+  {
+    "id": "e2e-selectors-in-production",
+    "name": "E2e Selectors In Production",
+    "category": "testing",
+    "description": "How to get e2e selectors right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 88
+  },
+  {
+    "id": "coverage-strategy",
+    "name": "Coverage Strategy",
+    "category": "testing",
+    "description": "A field manual for coverage strategy — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 114
+  },
+  {
+    "id": "coverage-strategy-at-scale",
+    "name": "Coverage Strategy At Scale",
+    "category": "testing",
+    "description": "Coverage strategy done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 57
+  },
+  {
+    "id": "coverage-strategy-in-production",
+    "name": "Coverage Strategy In Production",
+    "category": "testing",
+    "description": "Practical guide to coverage strategy. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 64
+  },
+  {
+    "id": "visual-regression",
+    "name": "Visual Regression",
+    "category": "testing",
+    "description": "How to get visual regression right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 45
+  },
+  {
+    "id": "visual-regression-at-scale",
+    "name": "Visual Regression At Scale",
+    "category": "testing",
+    "description": "A field manual for visual regression — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 102
+  },
+  {
+    "id": "visual-regression-in-production",
+    "name": "Visual Regression In Production",
+    "category": "testing",
+    "description": "Visual regression done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 52
+  },
+  {
+    "id": "property-based-tests",
+    "name": "Property-based Tests",
+    "category": "testing",
+    "description": "Practical guide to property-based tests. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 102
+  },
+  {
+    "id": "property-based-tests-at-scale",
+    "name": "Property-based Tests At Scale",
+    "category": "testing",
+    "description": "How to get property-based tests right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 75
+  },
+  {
+    "id": "property-based-tests-in-production",
+    "name": "Property-based Tests In Production",
+    "category": "testing",
+    "description": "A field manual for property-based tests — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 55
+  },
+  {
+    "id": "api-test-doubles",
+    "name": "Api Test Doubles",
+    "category": "testing",
+    "description": "Api test doubles done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 93
+  },
+  {
+    "id": "api-test-doubles-at-scale",
+    "name": "Api Test Doubles At Scale",
+    "category": "testing",
+    "description": "Practical guide to api test doubles. Each rule pairs with a concrete before/after example.",
+    "estTokens": 109
+  },
+  {
+    "id": "api-test-doubles-in-production",
+    "name": "Api Test Doubles In Production",
+    "category": "testing",
+    "description": "How to get api test doubles right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 48
+  },
+  {
+    "id": "flaky-test-triage",
+    "name": "Flaky Test Triage",
+    "category": "testing",
+    "description": "A field manual for flaky test triage — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 90
+  },
+  {
+    "id": "flaky-test-triage-at-scale",
+    "name": "Flaky Test Triage At Scale",
+    "category": "testing",
+    "description": "Flaky test triage done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 48
+  },
+  {
+    "id": "flaky-test-triage-in-production",
+    "name": "Flaky Test Triage In Production",
+    "category": "testing",
+    "description": "Practical guide to flaky test triage. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 63
+  },
+  {
+    "id": "performance-budgets",
+    "name": "Performance Budgets",
+    "category": "testing",
+    "description": "How to get performance budgets right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 63
+  },
+  {
+    "id": "auth-jwt",
+    "name": "Auth with JWT",
+    "category": "security",
+    "description": "Access/refresh token lifecycle, rotation, revocation, and storage safety.",
+    "estTokens": 73
+  },
+  {
+    "id": "oauth2-flows",
+    "name": "OAuth2 Flows",
+    "category": "security",
+    "description": "Choosing authorization-code + PKCE vs client-credentials, and doing it right.",
+    "estTokens": 101
+  },
+  {
+    "id": "csrf-defenses",
+    "name": "Csrf Defenses",
+    "category": "security",
+    "description": "Practical guide to csrf defenses. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 42
+  },
+  {
+    "id": "csrf-defenses-at-scale",
+    "name": "Csrf Defenses At Scale",
+    "category": "security",
+    "description": "How to get csrf defenses right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 45
+  },
+  {
+    "id": "csrf-defenses-in-production",
+    "name": "Csrf Defenses In Production",
+    "category": "security",
+    "description": "A field manual for csrf defenses — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 45
+  },
+  {
+    "id": "content-security-policy",
+    "name": "Content Security Policy",
+    "category": "security",
+    "description": "Content security policy done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 40
+  },
+  {
+    "id": "content-security-policy-at-scale",
+    "name": "Content Security Policy At Scale",
+    "category": "security",
+    "description": "Practical guide to content security policy. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 60
+  },
+  {
+    "id": "content-security-policy-in-production",
+    "name": "Content Security Policy In Production",
+    "category": "security",
+    "description": "How to get content security policy right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 99
+  },
+  {
+    "id": "secret-scanning",
+    "name": "Secret Scanning",
+    "category": "security",
+    "description": "A field manual for secret scanning — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 99
+  },
+  {
+    "id": "secret-scanning-at-scale",
+    "name": "Secret Scanning At Scale",
+    "category": "security",
+    "description": "Secret scanning done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 102
+  },
+  {
+    "id": "secret-scanning-in-production",
+    "name": "Secret Scanning In Production",
+    "category": "security",
+    "description": "Practical guide to secret scanning. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 58
+  },
+  {
+    "id": "dependency-audits",
+    "name": "Dependency Audits",
+    "category": "security",
+    "description": "How to get dependency audits right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 68
+  },
+  {
+    "id": "dependency-audits-at-scale",
+    "name": "Dependency Audits At Scale",
+    "category": "security",
+    "description": "A field manual for dependency audits — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 84
+  },
+  {
+    "id": "dependency-audits-in-production",
+    "name": "Dependency Audits In Production",
+    "category": "security",
+    "description": "Dependency audits done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 93
+  },
+  {
+    "id": "session-fixation",
+    "name": "Session Fixation",
+    "category": "security",
+    "description": "Practical guide to session fixation. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 74
+  },
+  {
+    "id": "session-fixation-at-scale",
+    "name": "Session Fixation At Scale",
+    "category": "security",
+    "description": "How to get session fixation right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 107
+  },
+  {
+    "id": "session-fixation-in-production",
+    "name": "Session Fixation In Production",
+    "category": "security",
+    "description": "A field manual for session fixation — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 93
+  },
+  {
+    "id": "password-hashing",
+    "name": "Password Hashing",
+    "category": "security",
+    "description": "Password hashing done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 53
+  },
+  {
+    "id": "password-hashing-at-scale",
+    "name": "Password Hashing At Scale",
+    "category": "security",
+    "description": "Practical guide to password hashing. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 116
+  },
+  {
+    "id": "password-hashing-in-production",
+    "name": "Password Hashing In Production",
+    "category": "security",
+    "description": "How to get password hashing right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 99
+  },
+  {
+    "id": "api-key-rotation",
+    "name": "Api Key Rotation",
+    "category": "security",
+    "description": "A field manual for api key rotation — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 79
+  },
+  {
+    "id": "api-key-rotation-at-scale",
+    "name": "Api Key Rotation At Scale",
+    "category": "security",
+    "description": "Api key rotation done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 110
+  },
+  {
+    "id": "api-key-rotation-in-production",
+    "name": "Api Key Rotation In Production",
+    "category": "security",
+    "description": "Practical guide to api key rotation. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 94
+  },
+  {
+    "id": "ssrf-prevention",
+    "name": "Ssrf Prevention",
+    "category": "security",
+    "description": "How to get ssrf prevention right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 106
+  },
+  {
+    "id": "ssrf-prevention-at-scale",
+    "name": "Ssrf Prevention At Scale",
+    "category": "security",
+    "description": "A field manual for ssrf prevention — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 66
+  },
+  {
+    "id": "ssrf-prevention-in-production",
+    "name": "Ssrf Prevention In Production",
+    "category": "security",
+    "description": "Ssrf prevention done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 52
+  },
+  {
+    "id": "input-sanitization",
+    "name": "Input Sanitization",
+    "category": "security",
+    "description": "Practical guide to input sanitization. Each rule pairs with a concrete before/after example.",
+    "estTokens": 113
+  },
+  {
+    "id": "input-sanitization-at-scale",
+    "name": "Input Sanitization At Scale",
+    "category": "security",
+    "description": "How to get input sanitization right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 83
+  },
+  {
+    "id": "input-sanitization-in-production",
+    "name": "Input Sanitization In Production",
+    "category": "security",
+    "description": "A field manual for input sanitization — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 53
+  },
+  {
+    "id": "audit-trails",
+    "name": "Audit Trails",
+    "category": "security",
+    "description": "Audit trails done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 106
+  },
+  {
+    "id": "audit-trails-at-scale",
+    "name": "Audit Trails At Scale",
+    "category": "security",
+    "description": "Practical guide to audit trails. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 44
+  },
+  {
+    "id": "audit-trails-in-production",
+    "name": "Audit Trails In Production",
+    "category": "security",
+    "description": "How to get audit trails right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 115
+  },
+  {
+    "id": "least-privilege-iam",
+    "name": "Least Privilege Iam",
+    "category": "security",
+    "description": "A field manual for least privilege iam — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 47
+  },
+  {
+    "id": "least-privilege-iam-at-scale",
+    "name": "Least Privilege Iam At Scale",
+    "category": "security",
+    "description": "Least privilege iam done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 89
+  },
+  {
+    "id": "least-privilege-iam-in-production",
+    "name": "Least Privilege Iam In Production",
+    "category": "security",
+    "description": "Practical guide to least privilege iam. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 70
+  },
+  {
+    "id": "prompt-compression",
+    "name": "Prompt Compression",
+    "category": "ai-agents",
+    "description": "Shrinking system prompts with progressive disclosure and compression.",
+    "estTokens": 85
+  },
+  {
+    "id": "tool-calling",
+    "name": "Tool Calling",
+    "category": "ai-agents",
+    "description": "Practical guide to tool calling. Each rule pairs with a concrete before/after example.",
+    "estTokens": 114
+  },
+  {
+    "id": "tool-calling-at-scale",
+    "name": "Tool Calling At Scale",
+    "category": "ai-agents",
+    "description": "How to get tool calling right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 93
+  },
+  {
+    "id": "tool-calling-in-production",
+    "name": "Tool Calling In Production",
+    "category": "ai-agents",
+    "description": "A field manual for tool calling — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 97
+  },
+  {
+    "id": "memory-management",
+    "name": "Memory Management",
+    "category": "ai-agents",
+    "description": "Memory management done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 78
+  },
+  {
+    "id": "memory-management-at-scale",
+    "name": "Memory Management At Scale",
+    "category": "ai-agents",
+    "description": "Practical guide to memory management. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 66
+  },
+  {
+    "id": "memory-management-in-production",
+    "name": "Memory Management In Production",
+    "category": "ai-agents",
+    "description": "How to get memory management right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 100
+  },
+  {
+    "id": "eval-harnesses",
+    "name": "Eval Harnesses",
+    "category": "ai-agents",
+    "description": "A field manual for eval harnesses — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 58
+  },
+  {
+    "id": "eval-harnesses-at-scale",
+    "name": "Eval Harnesses At Scale",
+    "category": "ai-agents",
+    "description": "Eval harnesses done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 58
+  },
+  {
+    "id": "eval-harnesses-in-production",
+    "name": "Eval Harnesses In Production",
+    "category": "ai-agents",
+    "description": "Practical guide to eval harnesses. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 77
+  },
+  {
+    "id": "retrieval-tuning",
+    "name": "Retrieval Tuning",
+    "category": "ai-agents",
+    "description": "How to get retrieval tuning right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 80
+  },
+  {
+    "id": "retrieval-tuning-at-scale",
+    "name": "Retrieval Tuning At Scale",
+    "category": "ai-agents",
+    "description": "A field manual for retrieval tuning — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 48
+  },
+  {
+    "id": "retrieval-tuning-in-production",
+    "name": "Retrieval Tuning In Production",
+    "category": "ai-agents",
+    "description": "Retrieval tuning done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 94
+  },
+  {
+    "id": "guardrail-design",
+    "name": "Guardrail Design",
+    "category": "ai-agents",
+    "description": "Practical guide to guardrail design. Each rule pairs with a concrete before/after example.",
+    "estTokens": 71
+  },
+  {
+    "id": "guardrail-design-at-scale",
+    "name": "Guardrail Design At Scale",
+    "category": "ai-agents",
+    "description": "How to get guardrail design right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 97
+  },
+  {
+    "id": "guardrail-design-in-production",
+    "name": "Guardrail Design In Production",
+    "category": "ai-agents",
+    "description": "A field manual for guardrail design — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 75
+  },
+  {
+    "id": "streaming-ux",
+    "name": "Streaming Ux",
+    "category": "ai-agents",
+    "description": "Streaming ux done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 47
+  },
+  {
+    "id": "streaming-ux-at-scale",
+    "name": "Streaming Ux At Scale",
+    "category": "ai-agents",
+    "description": "Practical guide to streaming ux. Each rule pairs with a concrete before/after example.",
+    "estTokens": 83
+  },
+  {
+    "id": "streaming-ux-in-production",
+    "name": "Streaming Ux In Production",
+    "category": "ai-agents",
+    "description": "How to get streaming ux right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 46
+  },
+  {
+    "id": "multi-agent-routing",
+    "name": "Multi-agent Routing",
+    "category": "ai-agents",
+    "description": "A field manual for multi-agent routing — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 110
+  },
+  {
+    "id": "multi-agent-routing-at-scale",
+    "name": "Multi-agent Routing At Scale",
+    "category": "ai-agents",
+    "description": "Multi-agent routing done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 90
+  },
+  {
+    "id": "multi-agent-routing-in-production",
+    "name": "Multi-agent Routing In Production",
+    "category": "ai-agents",
+    "description": "Practical guide to multi-agent routing. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 73
+  },
+  {
+    "id": "context-budgets",
+    "name": "Context Budgets",
+    "category": "ai-agents",
+    "description": "How to get context budgets right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 77
+  },
+  {
+    "id": "context-budgets-at-scale",
+    "name": "Context Budgets At Scale",
+    "category": "ai-agents",
+    "description": "A field manual for context budgets — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 46
+  },
+  {
+    "id": "context-budgets-in-production",
+    "name": "Context Budgets In Production",
+    "category": "ai-agents",
+    "description": "Context budgets done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 44
+  },
+  {
+    "id": "fallback-chains",
+    "name": "Fallback Chains",
+    "category": "ai-agents",
+    "description": "Practical guide to fallback chains. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 71
+  },
+  {
+    "id": "fallback-chains-at-scale",
+    "name": "Fallback Chains At Scale",
+    "category": "ai-agents",
+    "description": "How to get fallback chains right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 83
+  },
+  {
+    "id": "fallback-chains-in-production",
+    "name": "Fallback Chains In Production",
+    "category": "ai-agents",
+    "description": "A field manual for fallback chains — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 73
+  },
+  {
+    "id": "prompt-versioning",
+    "name": "Prompt Versioning",
+    "category": "ai-agents",
+    "description": "Prompt versioning done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 55
+  },
+  {
+    "id": "prompt-versioning-at-scale",
+    "name": "Prompt Versioning At Scale",
+    "category": "ai-agents",
+    "description": "Practical guide to prompt versioning. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 41
+  },
+  {
+    "id": "prompt-versioning-in-production",
+    "name": "Prompt Versioning In Production",
+    "category": "ai-agents",
+    "description": "How to get prompt versioning right the first time. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 67
+  },
+  {
+    "id": "hallucination-checks",
+    "name": "Hallucination Checks",
+    "category": "ai-agents",
+    "description": "A field manual for hallucination checks — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 105
+  },
+  {
+    "id": "hallucination-checks-at-scale",
+    "name": "Hallucination Checks At Scale",
+    "category": "ai-agents",
+    "description": "Hallucination checks done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 71
+  },
+  {
+    "id": "hallucination-checks-in-production",
+    "name": "Hallucination Checks In Production",
+    "category": "ai-agents",
+    "description": "Practical guide to hallucination checks. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 63
+  },
+  {
+    "id": "cost-attribution",
+    "name": "Cost Attribution",
+    "category": "ai-agents",
+    "description": "How to get cost attribution right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 43
+  },
+  {
+    "id": "rate-limiting",
+    "name": "Rate Limiting",
+    "category": "performance",
+    "description": "Token buckets, sliding windows, and per-key limits that protect backends.",
+    "estTokens": 77
+  },
+  {
+    "id": "lazy-loading",
+    "name": "Lazy Loading",
+    "category": "performance",
+    "description": "Practical guide to lazy loading. Each rule pairs with a concrete before/after example.",
+    "estTokens": 44
+  },
+  {
+    "id": "lazy-loading-at-scale",
+    "name": "Lazy Loading At Scale",
+    "category": "performance",
+    "description": "How to get lazy loading right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 118
+  },
+  {
+    "id": "lazy-loading-in-production",
+    "name": "Lazy Loading In Production",
+    "category": "performance",
+    "description": "A field manual for lazy loading — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 54
+  },
+  {
+    "id": "cdn-caching",
+    "name": "Cdn Caching",
+    "category": "performance",
+    "description": "Cdn caching done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 49
+  },
+  {
+    "id": "cdn-caching-at-scale",
+    "name": "Cdn Caching At Scale",
+    "category": "performance",
+    "description": "Practical guide to cdn caching. Each rule pairs with a concrete before/after example.",
+    "estTokens": 44
+  },
+  {
+    "id": "cdn-caching-in-production",
+    "name": "Cdn Caching In Production",
+    "category": "performance",
+    "description": "How to get cdn caching right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 60
+  },
+  {
+    "id": "database-n-1-fixes",
+    "name": "Database N+1 Fixes",
+    "category": "performance",
+    "description": "A field manual for database n+1 fixes — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 97
+  },
+  {
+    "id": "database-n-1-fixes-at-scale",
+    "name": "Database N+1 Fixes At Scale",
+    "category": "performance",
+    "description": "Database n+1 fixes done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 75
+  },
+  {
+    "id": "database-n-1-fixes-in-production",
+    "name": "Database N+1 Fixes In Production",
+    "category": "performance",
+    "description": "Practical guide to database n+1 fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 64
+  },
+  {
+    "id": "payload-shrinking",
+    "name": "Payload Shrinking",
+    "category": "performance",
+    "description": "How to get payload shrinking right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 89
+  },
+  {
+    "id": "payload-shrinking-at-scale",
+    "name": "Payload Shrinking At Scale",
+    "category": "performance",
+    "description": "A field manual for payload shrinking — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 98
+  },
+  {
+    "id": "payload-shrinking-in-production",
+    "name": "Payload Shrinking In Production",
+    "category": "performance",
+    "description": "Payload shrinking done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 111
+  },
+  {
+    "id": "connection-reuse",
+    "name": "Connection Reuse",
+    "category": "performance",
+    "description": "Practical guide to connection reuse. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 49
+  },
+  {
+    "id": "connection-reuse-at-scale",
+    "name": "Connection Reuse At Scale",
+    "category": "performance",
+    "description": "How to get connection reuse right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 104
+  },
+  {
+    "id": "connection-reuse-in-production",
+    "name": "Connection Reuse In Production",
+    "category": "performance",
+    "description": "A field manual for connection reuse — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 73
+  },
+  {
+    "id": "worker-pools",
+    "name": "Worker Pools",
+    "category": "performance",
+    "description": "Worker pools done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 64
+  },
+  {
+    "id": "worker-pools-at-scale",
+    "name": "Worker Pools At Scale",
+    "category": "performance",
+    "description": "Practical guide to worker pools. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 115
+  },
+  {
+    "id": "worker-pools-in-production",
+    "name": "Worker Pools In Production",
+    "category": "performance",
+    "description": "How to get worker pools right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 54
+  },
+  {
+    "id": "memory-profiling",
+    "name": "Memory Profiling",
+    "category": "performance",
+    "description": "A field manual for memory profiling — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 68
+  },
+  {
+    "id": "memory-profiling-at-scale",
+    "name": "Memory Profiling At Scale",
+    "category": "performance",
+    "description": "Memory profiling done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 110
+  },
+  {
+    "id": "memory-profiling-in-production",
+    "name": "Memory Profiling In Production",
+    "category": "performance",
+    "description": "Practical guide to memory profiling. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 101
+  },
+  {
+    "id": "hot-path-tracing",
+    "name": "Hot Path Tracing",
+    "category": "performance",
+    "description": "How to get hot path tracing right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 52
+  },
+  {
+    "id": "hot-path-tracing-at-scale",
+    "name": "Hot Path Tracing At Scale",
+    "category": "performance",
+    "description": "A field manual for hot path tracing — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 112
+  },
+  {
+    "id": "hot-path-tracing-in-production",
+    "name": "Hot Path Tracing In Production",
+    "category": "performance",
+    "description": "Hot path tracing done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 55
+  },
+  {
+    "id": "compression-tuning",
+    "name": "Compression Tuning",
+    "category": "performance",
+    "description": "Practical guide to compression tuning. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 97
+  },
+  {
+    "id": "compression-tuning-at-scale",
+    "name": "Compression Tuning At Scale",
+    "category": "performance",
+    "description": "How to get compression tuning right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 110
+  },
+  {
+    "id": "compression-tuning-in-production",
+    "name": "Compression Tuning In Production",
+    "category": "performance",
+    "description": "A field manual for compression tuning — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 50
+  },
+  {
+    "id": "prefetch-strategy",
+    "name": "Prefetch Strategy",
+    "category": "performance",
+    "description": "Prefetch strategy done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 103
+  },
+  {
+    "id": "prefetch-strategy-at-scale",
+    "name": "Prefetch Strategy At Scale",
+    "category": "performance",
+    "description": "Practical guide to prefetch strategy. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 49
+  },
+  {
+    "id": "prefetch-strategy-in-production",
+    "name": "Prefetch Strategy In Production",
+    "category": "performance",
+    "description": "How to get prefetch strategy right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 116
+  },
+  {
+    "id": "render-blocking",
+    "name": "Render Blocking",
+    "category": "performance",
+    "description": "A field manual for render blocking — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 52
+  },
+  {
+    "id": "render-blocking-at-scale",
+    "name": "Render Blocking At Scale",
+    "category": "performance",
+    "description": "Render blocking done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 87
+  },
+  {
+    "id": "render-blocking-in-production",
+    "name": "Render Blocking In Production",
+    "category": "performance",
+    "description": "Practical guide to render blocking. Each rule pairs with a concrete before/after example.",
+    "estTokens": 88
+  },
+  {
+    "id": "queue-backpressure",
+    "name": "Queue Backpressure",
+    "category": "performance",
+    "description": "How to get queue backpressure right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 54
+  },
+  {
+    "id": "offline-sync",
+    "name": "Offline Sync",
+    "category": "mobile",
+    "description": "Practical guide to offline sync. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 55
+  },
+  {
+    "id": "offline-sync-at-scale",
+    "name": "Offline Sync At Scale",
+    "category": "mobile",
+    "description": "How to get offline sync right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 94
+  },
+  {
+    "id": "offline-sync-in-production",
+    "name": "Offline Sync In Production",
+    "category": "mobile",
+    "description": "A field manual for offline sync — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 51
+  },
+  {
+    "id": "push-notifications",
+    "name": "Push Notifications",
+    "category": "mobile",
+    "description": "Push notifications done properly: patterns, trade-offs, and recipes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 93
+  },
+  {
+    "id": "push-notifications-at-scale",
+    "name": "Push Notifications At Scale",
+    "category": "mobile",
+    "description": "Practical guide to push notifications. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 117
+  },
+  {
+    "id": "push-notifications-in-production",
+    "name": "Push Notifications In Production",
+    "category": "mobile",
+    "description": "How to get push notifications right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 111
+  },
+  {
+    "id": "battery-profiling",
+    "name": "Battery Profiling",
+    "category": "mobile",
+    "description": "A field manual for battery profiling — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 45
+  },
+  {
+    "id": "battery-profiling-at-scale",
+    "name": "Battery Profiling At Scale",
+    "category": "mobile",
+    "description": "Battery profiling done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 79
+  },
+  {
+    "id": "battery-profiling-in-production",
+    "name": "Battery Profiling In Production",
+    "category": "mobile",
+    "description": "Practical guide to battery profiling. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 70
+  },
+  {
+    "id": "deep-linking",
+    "name": "Deep Linking",
+    "category": "mobile",
+    "description": "How to get deep linking right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 79
+  },
+  {
+    "id": "deep-linking-at-scale",
+    "name": "Deep Linking At Scale",
+    "category": "mobile",
+    "description": "A field manual for deep linking — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 115
+  },
+  {
+    "id": "deep-linking-in-production",
+    "name": "Deep Linking In Production",
+    "category": "mobile",
+    "description": "Deep linking done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 113
+  },
+  {
+    "id": "app-store-metadata",
+    "name": "App Store Metadata",
+    "category": "mobile",
+    "description": "Practical guide to app store metadata. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 102
+  },
+  {
+    "id": "app-store-metadata-at-scale",
+    "name": "App Store Metadata At Scale",
+    "category": "mobile",
+    "description": "How to get app store metadata right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 117
+  },
+  {
+    "id": "app-store-metadata-in-production",
+    "name": "App Store Metadata In Production",
+    "category": "mobile",
+    "description": "A field manual for app store metadata — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 71
+  },
+  {
+    "id": "biometric-auth",
+    "name": "Biometric Auth",
+    "category": "mobile",
+    "description": "Biometric auth done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 78
+  },
+  {
+    "id": "biometric-auth-at-scale",
+    "name": "Biometric Auth At Scale",
+    "category": "mobile",
+    "description": "Practical guide to biometric auth. Each rule pairs with a concrete before/after example.",
+    "estTokens": 68
+  },
+  {
+    "id": "biometric-auth-in-production",
+    "name": "Biometric Auth In Production",
+    "category": "mobile",
+    "description": "How to get biometric auth right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 98
+  },
+  {
+    "id": "background-fetch",
+    "name": "Background Fetch",
+    "category": "mobile",
+    "description": "A field manual for background fetch — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 41
+  },
+  {
+    "id": "background-fetch-at-scale",
+    "name": "Background Fetch At Scale",
+    "category": "mobile",
+    "description": "Background fetch done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 94
+  },
+  {
+    "id": "background-fetch-in-production",
+    "name": "Background Fetch In Production",
+    "category": "mobile",
+    "description": "Practical guide to background fetch. Each rule pairs with a concrete before/after example.",
+    "estTokens": 91
+  },
+  {
+    "id": "crash-reporting",
+    "name": "Crash Reporting",
+    "category": "mobile",
+    "description": "How to get crash reporting right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 95
+  },
+  {
+    "id": "crash-reporting-at-scale",
+    "name": "Crash Reporting At Scale",
+    "category": "mobile",
+    "description": "A field manual for crash reporting — common pitfalls and proven fixes. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 58
+  },
+  {
+    "id": "crash-reporting-in-production",
+    "name": "Crash Reporting In Production",
+    "category": "mobile",
+    "description": "Crash reporting done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 114
+  },
+  {
+    "id": "on-device-caching",
+    "name": "On-device Caching",
+    "category": "mobile",
+    "description": "Practical guide to on-device caching. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 49
+  },
+  {
+    "id": "on-device-caching-at-scale",
+    "name": "On-device Caching At Scale",
+    "category": "mobile",
+    "description": "How to get on-device caching right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 92
+  },
+  {
+    "id": "on-device-caching-in-production",
+    "name": "On-device Caching In Production",
+    "category": "mobile",
+    "description": "A field manual for on-device caching — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 97
+  },
+  {
+    "id": "permission-flows",
+    "name": "Permission Flows",
+    "category": "mobile",
+    "description": "Permission flows done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 103
+  },
+  {
+    "id": "permission-flows-at-scale",
+    "name": "Permission Flows At Scale",
+    "category": "mobile",
+    "description": "Practical guide to permission flows. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 108
+  },
+  {
+    "id": "permission-flows-in-production",
+    "name": "Permission Flows In Production",
+    "category": "mobile",
+    "description": "How to get permission flows right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 52
+  },
+  {
+    "id": "ota-updates",
+    "name": "Ota Updates",
+    "category": "mobile",
+    "description": "A field manual for ota updates — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 119
+  },
+  {
+    "id": "ota-updates-at-scale",
+    "name": "Ota Updates At Scale",
+    "category": "mobile",
+    "description": "Ota updates done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 91
+  },
+  {
+    "id": "ota-updates-in-production",
+    "name": "Ota Updates In Production",
+    "category": "mobile",
+    "description": "Practical guide to ota updates. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 57
+  },
+  {
+    "id": "adaptive-layouts",
+    "name": "Adaptive Layouts",
+    "category": "mobile",
+    "description": "How to get adaptive layouts right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 49
+  },
+  {
+    "id": "adaptive-layouts-at-scale",
+    "name": "Adaptive Layouts At Scale",
+    "category": "mobile",
+    "description": "A field manual for adaptive layouts — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 86
+  },
+  {
+    "id": "api-references",
+    "name": "Api References",
+    "category": "docs",
+    "description": "Practical guide to api references. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 45
+  },
+  {
+    "id": "api-references-at-scale",
+    "name": "Api References At Scale",
+    "category": "docs",
+    "description": "How to get api references right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 69
+  },
+  {
+    "id": "api-references-in-production",
+    "name": "Api References In Production",
+    "category": "docs",
+    "description": "A field manual for api references — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 90
+  },
+  {
+    "id": "getting-started-guides",
+    "name": "Getting-started Guides",
+    "category": "docs",
+    "description": "Getting-started guides done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 57
+  },
+  {
+    "id": "getting-started-guides-at-scale",
+    "name": "Getting-started Guides At Scale",
+    "category": "docs",
+    "description": "Practical guide to getting-started guides. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 68
+  },
+  {
+    "id": "getting-started-guides-in-production",
+    "name": "Getting-started Guides In Production",
+    "category": "docs",
+    "description": "How to get getting-started guides right the first time. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 87
+  },
+  {
+    "id": "changelog-discipline",
+    "name": "Changelog Discipline",
+    "category": "docs",
+    "description": "A field manual for changelog discipline — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 101
+  },
+  {
+    "id": "changelog-discipline-at-scale",
+    "name": "Changelog Discipline At Scale",
+    "category": "docs",
+    "description": "Changelog discipline done properly: patterns, trade-offs, and recipes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 55
+  },
+  {
+    "id": "changelog-discipline-in-production",
+    "name": "Changelog Discipline In Production",
+    "category": "docs",
+    "description": "Practical guide to changelog discipline. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 97
+  },
+  {
+    "id": "diagram-standards",
+    "name": "Diagram Standards",
+    "category": "docs",
+    "description": "How to get diagram standards right the first time. Each rule pairs with a concrete before/after example.",
+    "estTokens": 114
+  },
+  {
+    "id": "diagram-standards-at-scale",
+    "name": "Diagram Standards At Scale",
+    "category": "docs",
+    "description": "A field manual for diagram standards — common pitfalls and proven fixes. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 93
+  },
+  {
+    "id": "diagram-standards-in-production",
+    "name": "Diagram Standards In Production",
+    "category": "docs",
+    "description": "Diagram standards done properly: patterns, trade-offs, and recipes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 92
+  },
+  {
+    "id": "runbook-writing",
+    "name": "Runbook Writing",
+    "category": "docs",
+    "description": "Practical guide to runbook writing. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 60
+  },
+  {
+    "id": "runbook-writing-at-scale",
+    "name": "Runbook Writing At Scale",
+    "category": "docs",
+    "description": "How to get runbook writing right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 62
+  },
+  {
+    "id": "runbook-writing-in-production",
+    "name": "Runbook Writing In Production",
+    "category": "docs",
+    "description": "A field manual for runbook writing — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 76
+  },
+  {
+    "id": "adr-templates",
+    "name": "Adr Templates",
+    "category": "docs",
+    "description": "Adr templates done properly: patterns, trade-offs, and recipes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 108
+  },
+  {
+    "id": "adr-templates-at-scale",
+    "name": "Adr Templates At Scale",
+    "category": "docs",
+    "description": "Practical guide to adr templates. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 73
+  },
+  {
+    "id": "adr-templates-in-production",
+    "name": "Adr Templates In Production",
+    "category": "docs",
+    "description": "How to get adr templates right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 61
+  },
+  {
+    "id": "code-examples",
+    "name": "Code Examples",
+    "category": "docs",
+    "description": "A field manual for code examples — common pitfalls and proven fixes. Prioritizes measurable outcomes over theoretical purity.",
+    "estTokens": 110
+  },
+  {
+    "id": "code-examples-at-scale",
+    "name": "Code Examples At Scale",
+    "category": "docs",
+    "description": "Code examples done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 107
+  },
+  {
+    "id": "code-examples-in-production",
+    "name": "Code Examples In Production",
+    "category": "docs",
+    "description": "Practical guide to code examples. Each rule pairs with a concrete before/after example.",
+    "estTokens": 49
+  },
+  {
+    "id": "glossary-maintenance",
+    "name": "Glossary Maintenance",
+    "category": "docs",
+    "description": "How to get glossary maintenance right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 75
+  },
+  {
+    "id": "glossary-maintenance-at-scale",
+    "name": "Glossary Maintenance At Scale",
+    "category": "docs",
+    "description": "A field manual for glossary maintenance — common pitfalls and proven fixes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 79
+  },
+  {
+    "id": "glossary-maintenance-in-production",
+    "name": "Glossary Maintenance In Production",
+    "category": "docs",
+    "description": "Glossary maintenance done properly: patterns, trade-offs, and recipes. Each rule pairs with a concrete before/after example.",
+    "estTokens": 53
+  },
+  {
+    "id": "search-indexing",
+    "name": "Search Indexing",
+    "category": "docs",
+    "description": "Practical guide to search indexing. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 75
+  },
+  {
+    "id": "search-indexing-at-scale",
+    "name": "Search Indexing At Scale",
+    "category": "docs",
+    "description": "How to get search indexing right the first time. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 120
+  },
+  {
+    "id": "search-indexing-in-production",
+    "name": "Search Indexing In Production",
+    "category": "docs",
+    "description": "A field manual for search indexing — common pitfalls and proven fixes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 108
+  },
+  {
+    "id": "versioned-docs",
+    "name": "Versioned Docs",
+    "category": "docs",
+    "description": "Versioned docs done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 119
+  },
+  {
+    "id": "versioned-docs-at-scale",
+    "name": "Versioned Docs At Scale",
+    "category": "docs",
+    "description": "Practical guide to versioned docs. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 112
+  },
+  {
+    "id": "versioned-docs-in-production",
+    "name": "Versioned Docs In Production",
+    "category": "docs",
+    "description": "How to get versioned docs right the first time. Includes decision flowcharts for when each pattern applies.",
+    "estTokens": 61
+  },
+  {
+    "id": "onboarding-paths",
+    "name": "Onboarding Paths",
+    "category": "docs",
+    "description": "A field manual for onboarding paths — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 119
+  },
+  {
+    "id": "onboarding-paths-at-scale",
+    "name": "Onboarding Paths At Scale",
+    "category": "docs",
+    "description": "Onboarding paths done properly: patterns, trade-offs, and recipes. Focused on the 20% of techniques that fix 80% of real-world issues.",
+    "estTokens": 110
+  },
+  {
+    "id": "onboarding-paths-in-production",
+    "name": "Onboarding Paths In Production",
+    "category": "docs",
+    "description": "Practical guide to onboarding paths. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 88
+  },
+  {
+    "id": "style-guides",
+    "name": "Style Guides",
+    "category": "docs",
+    "description": "How to get style guides right the first time. Checklists, anti-patterns, and copy-paste-ready templates included.",
+    "estTokens": 62
+  },
+  {
+    "id": "style-guides-at-scale",
+    "name": "Style Guides At Scale",
+    "category": "docs",
+    "description": "A field manual for style guides — common pitfalls and proven fixes. Written for teams inheriting messy codebases under deadline pressure.",
+    "estTokens": 54
+  }
+]
